@@ -1,0 +1,59 @@
+h1, p {
+    font-family: Lato;
+  }
+  
+  #Layer_1 {
+    -webkit-animation: rotation 8s infinite linear;
+        background-color:#ff7f7f;
+  }
+  
+  @-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #222;
+    padding:  8px 32px 8px 16px;
+    height:36px;
+  }
+  
+  .header-right
+  {
+  
+    float: right;  
+  }
+  
+  .mod {
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .red {
+    color: red;
+    text-align: left;
+  }
+  
+  .dispNone {
+    display: none;
+  }
+  
+  .dispBlock {
+    display: block;
+  }
+  
+  .formControl
+  {
+  text-align: left;
+  
+  }
+  

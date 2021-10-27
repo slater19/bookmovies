@@ -1,0 +1,160 @@
+main, header, section, aside, footer {
+    margin: 0;
+    padding: 20px;
+    border: 1px solid #000000;
+    color: #ffffff;
+}
+
+main {
+    background: #000000;
+}
+
+.header {
+    background: #03a9f4;
+}
+
+.hero {
+    background: #d22b1f;
+}
+
+.content {
+    background: #129a22;
+}
+
+.sidebar {
+    border: 1px solid #000000;
+    background: #673ab7;
+}
+
+.footer {
+    border: 1px solid #000000;
+    background: #616161;
+}
+
+h1, p {
+    font-family: Lato;
+  }
+  
+  
+  
+  /* Header/Logo Title */
+  .headernew {
+    padding: 8px;
+    text-align: center;
+    background: #ff9999;
+    color: black;
+    font-size: 1rem;
+    height:35px;
+  }
+  
+  
+  
+  /* TODO:  add style using display flex to the parent div of number div to get numbers in the middle of the box */
+  
+  
+  
+  
+  
+  
+   
+  
+  
+  #flex-container {
+    display: flex;
+    min-height:100vh;
+    
+  }
+  
+  .flex-item-left {
+    
+   width:76vw;
+  margin:16px;
+  
+  }
+  
+  .flex-item-right {
+    
+   width:24vw;
+  margin:16px;
+  
+  }
+  
+  .pointer
+  {
+  overflow:auto;
+  cursor: pointer;
+  }
+  
+  h1, p {
+    font-family: Lato;
+  }
+  
+  #Layer_1 {
+    -webkit-animation: rotation 8s infinite linear;
+        background-color:#ff7f7f;
+  }
+  
+  @-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+  }
+  
+  .header {
+    overflow: hidden;
+    background-color: #222;
+    padding:  8px 32px 8px 16px;
+    height:36px;
+  }
+  
+  .header-right
+  {
+  
+    float: right;  
+  }
+  
+  .mod {
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .dispNone {
+    display: none;
+  }
+  
+  .dispBlock {
+    display: block;
+  }
+  
+  
+  h1, p {
+    font-family: Lato;
+  }
+  
+  .cardStyle {
+    width: 280px;
+    padding: 32px 64px 32px 64px;
+    margin: auto;
+    text-align: left;
+  }
+  
+  .formControl {
+    width: 240px;
+  }
+  
+  .btn
+  {
+    width:240px
+  }
